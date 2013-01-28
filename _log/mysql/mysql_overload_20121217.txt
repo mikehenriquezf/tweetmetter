@@ -1,0 +1,22 @@
+20121217 - 03:05:08>INSERT INTO twitter_related
+							(id_twitter, id_twitter_search) VALUES
+							(280569541208199168, 5) <BR> execution time: 2.375538110733 seconds <BR>
+20121217 - 03:05:09>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 1,
+			modified = NOW()
+			WHERE id_person = 2 AND date = '2012-12-17 03:00:00' <BR> execution time: 0.56346583366394 seconds <BR>
+20121217 - 03:05:11>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 0,
+			modified = NOW()
+			WHERE id_person = 2 AND date = '2012-12-17 03:00:00' <BR> execution time: 0.58351993560791 seconds <BR>
+20121217 - 03:05:12>UPDATE Array
+(
+    [followers] => 242205
+)
+ WHERE id = 1  <BR> execution time: 0.80243802070618 seconds <BR>

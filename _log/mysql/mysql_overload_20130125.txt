@@ -1,0 +1,1 @@
+20130125 - 02:50:02>SELECT * FROM twitter_sync_history WHERE state = 0 <BR> execution time: 0.7861168384552 seconds <BR>

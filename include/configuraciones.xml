@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- Todos los tiempos están en segundos -->
+	<!-- Las modificaciones realizadas aquí tardaran hasta 60 segundos en propagarse -->
+
+	<AjaxTTL>300</AjaxTTL>
+	<StatisticsTTL>300</StatisticsTTL>
+	<TwitterApiRefresh>300</TwitterApiRefresh>
+	<ContadorFecha>01/12/2012 21:00</ContadorFecha>  <!-- FORMATO dd/mm/YYYY H:i -->
+	<Personas>
+		<Persona>
+			<Nombre>Miguel Ángel Cotto</Nombre>
+			<Twitter>RealMiguelCotto</Twitter>
+			<Nacionalidad>Puertorriqueño</Nacionalidad>
+			<Edad>32</Edad>
+			<Altura_mts>1,70</Altura_mts>
+			<Altura_inch>5’7”</Altura_inch>
+			<Alcance_mts>1,70</Alcance_mts>			
+			<Alcance_inch>67”</Alcance_inch>
+			<Peleas_Total>40</Peleas_Total>
+			<Peleas_Ganadas>37</Peleas_Ganadas>
+			<Peleas_Perdidas>3</Peleas_Perdidas>
+			<Peleas_KO>30</Peleas_KO>
+		</Persona>
+		<Persona>
+			<Nombre>Austin Trout</Nombre>
+			<Twitter>NoDoubtTrout</Twitter>
+			<Nacionalidad>Americano</Nacionalidad>
+			<Edad>27</Edad>
+			<Altura_mts>1,77</Altura_mts>
+			<Altura_inch>5’1”</Altura_inch>
+			<Alcance_mts>1,83</Alcance_mts>			
+			<Alcance_inch>72”</Alcance_inch>
+			<Peleas_Total>25</Peleas_Total>
+			<Peleas_Ganadas>25</Peleas_Ganadas>
+			<Peleas_Perdidas>0</Peleas_Perdidas>
+			<Peleas_KO>14</Peleas_KO>
+		</Persona>
+	</Personas>
+</root>

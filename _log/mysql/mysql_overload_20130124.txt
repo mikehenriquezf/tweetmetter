@@ -1,0 +1,214 @@
+20130124 - 06:45:04>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 06:00:00' <BR> execution time: 0.69829511642456 seconds <BR>
+20130124 - 07:25:04>UPDATE Array
+(
+    [followers] => 111811
+)
+ WHERE id = 2  <BR> execution time: 0.50598096847534 seconds <BR>
+20130124 - 09:25:04>UPDATE Array
+(
+    [followers] => 111811
+)
+ WHERE id = 2  <BR> execution time: 0.75236797332764 seconds <BR>
+20130124 - 09:40:03>UPDATE Array
+(
+    [followers] => 248453
+)
+ WHERE id = 1  <BR> execution time: 0.80947804450989 seconds <BR>
+20130124 - 09:55:04>UPDATE Array
+(
+    [followers] => 248451
+)
+ WHERE id = 1  <BR> execution time: 0.73411703109741 seconds <BR>
+20130124 - 10:35:03>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 1 AND date < '2013-01-24 10:00:00' <BR> execution time: 0.98405504226685 seconds <BR>
+20130124 - 10:40:03>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 10:00:00' <BR> execution time: 0.69835686683655 seconds <BR>
+20130124 - 10:45:03>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 2 AND date < '2013-01-24 10:00:00' <BR> execution time: 0.77159118652344 seconds <BR>
+20130124 - 10:55:04>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 1 AND date < '2013-01-24 10:00:00' <BR> execution time: 1.0440189838409 seconds <BR>
+20130124 - 11:10:03>UPDATE Array
+(
+    [followers] => 248456
+)
+ WHERE id = 1  <BR> execution time: 0.6709680557251 seconds <BR>
+20130124 - 11:25:03>SELECT * FROM persons WHERE active = 1 ORDER BY sort ASC <BR> execution time: 0.71406698226929 seconds <BR>
+20130124 - 11:50:03>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 2 AND date < '2013-01-24 11:00:00' <BR> execution time: 0.65971493721008 seconds <BR>
+20130124 - 12:05:04>UPDATE Array
+(
+    [date_end] => 2013-01-24 12:05:03
+    [state] => 1
+    [result] => execution time: 1.1768801212311 seconds <BR>
+ output = 1 <BR>
+ 
+)
+ WHERE id = 16266  <BR> execution time: 0.97949504852295 seconds <BR>
+20130124 - 12:15:03>UPDATE Array
+(
+    [followers] => 248467
+)
+ WHERE id = 1  <BR> execution time: 0.58515620231628 seconds <BR>
+20130124 - 12:25:03>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 12:00:00' <BR> execution time: 0.84625482559204 seconds <BR>
+20130124 - 12:30:03>UPDATE Array
+(
+    [followers] => 111809
+)
+ WHERE id = 2  <BR> execution time: 0.71400785446167 seconds <BR>
+20130124 - 12:55:03>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 0,
+			modified = NOW()
+			WHERE id_person = 2 AND date = '2013-01-24 12:00:00' <BR> execution time: 0.71308088302612 seconds <BR>
+20130124 - 13:00:03>UPDATE Array
+(
+    [followers] => 111808
+)
+ WHERE id = 2  <BR> execution time: 0.92000889778137 seconds <BR>
+20130124 - 13:05:03>UPDATE Array
+(
+    [followers] => 248476
+)
+ WHERE id = 1  <BR> execution time: 0.84535503387451 seconds <BR>
+20130124 - 13:20:03>UPDATE Array
+(
+    [followers] => 111810
+)
+ WHERE id = 2  <BR> execution time: 0.70549511909485 seconds <BR>
+20130124 - 13:25:03>UPDATE Array
+(
+    [followers] => 248490
+)
+ WHERE id = 1  <BR> execution time: 0.77037596702576 seconds <BR>
+20130124 - 13:30:03>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 13:00:00' <BR> execution time: 0.50282883644104 seconds <BR>
+20130124 - 13:35:03>UPDATE Array
+(
+    [followers] => 248492
+)
+ WHERE id = 1  <BR> execution time: 0.67127299308777 seconds <BR>
+20130124 - 13:50:03>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 0,
+			modified = NOW()
+			WHERE id_person = 1 AND date = '2013-01-24 13:00:00' <BR> execution time: 0.81339001655579 seconds <BR>
+20130124 - 14:25:03>UPDATE Array
+(
+    [followers] => 248499
+)
+ WHERE id = 1  <BR> execution time: 0.73959803581238 seconds <BR>
+20130124 - 14:30:03>UPDATE Array
+(
+    [followers] => 111811
+)
+ WHERE id = 2  <BR> execution time: 0.78080892562866 seconds <BR>
+20130124 - 14:35:04>UPDATE Array
+(
+    [date_end] => 2013-01-24 14:35:03
+    [state] => 1
+    [result] => execution time: 1.9573369026184 seconds <BR>
+ output = 1 <BR>
+ 
+)
+ WHERE id = 16296  <BR> execution time: 0.63421392440796 seconds <BR>
+20130124 - 14:55:03>UPDATE Array
+(
+    [followers] => 111813
+)
+ WHERE id = 2  <BR> execution time: 0.84965205192566 seconds <BR>
+20130124 - 15:00:03>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 15:00:00' <BR> execution time: 0.70968890190125 seconds <BR>
+20130124 - 15:05:03>SELECT * FROM persons WHERE twitter = 'NoDoubtTrout' <BR> execution time: 0.56454300880432 seconds <BR>
+20130124 - 15:10:03>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 15:00:00' <BR> execution time: 0.55234098434448 seconds <BR>
+20130124 - 15:15:03>UPDATE Array
+(
+    [followers] => 111816
+)
+ WHERE id = 2  <BR> execution time: 0.56272602081299 seconds <BR>
+20130124 - 15:20:03>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 15:00:00' <BR> execution time: 0.55711698532104 seconds <BR>
+20130124 - 15:35:03>UPDATE Array
+(
+    [followers] => -1
+)
+ WHERE id_person = 1 AND date = '2013-01-24 15:00:00'  <BR> execution time: 1.0618929862976 seconds <BR>
+20130124 - 15:45:03>UPDATE Array
+(
+    [followers] => 111821
+)
+ WHERE id = 2  <BR> execution time: 0.73209619522095 seconds <BR>
+20130124 - 15:55:02>SELECT * FROM persons WHERE active = 1 ORDER BY sort ASC <BR> execution time: 0.89491105079651 seconds <BR>
+20130124 - 16:00:03>SELECT * FROM persons WHERE twitter = 'NoDoubtTrout' <BR> execution time: 0.72739100456238 seconds <BR>
+20130124 - 16:05:03>UPDATE Array
+(
+    [followers] => 111823
+)
+ WHERE id = 2  <BR> execution time: 0.94266486167908 seconds <BR>
+20130124 - 16:20:02>SELECT * FROM persons WHERE active = 1 ORDER BY sort ASC <BR> execution time: 0.64426183700562 seconds <BR>
+20130124 - 16:35:03>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 16:00:00' <BR> execution time: 0.80870914459229 seconds <BR>
+20130124 - 16:45:02>UPDATE Array
+(
+    [followers] => 248505
+)
+ WHERE id = 1  <BR> execution time: 0.60555410385132 seconds <BR>
+20130124 - 16:50:02>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 1 AND date < '2013-01-24 16:00:00' <BR> execution time: 0.6632981300354 seconds <BR>
+20130124 - 17:45:02>UPDATE Array
+(
+    [followers] => 248508
+)
+ WHERE id = 1  <BR> execution time: 0.52953004837036 seconds <BR>
+20130124 - 17:55:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 17:00:00' <BR> execution time: 0.80208516120911 seconds <BR>
+20130124 - 18:00:02>SELECT SUM(followers) AS followers FROM statistics
+			WHERE id_person = 2 AND date < '2013-01-24 18:00:00' <BR> execution time: 0.68765211105347 seconds <BR>
+20130124 - 18:10:03>SELECT * FROM persons WHERE twitter = 'RealMiguelCotto' <BR> execution time: 0.80253100395203 seconds <BR>
+20130124 - 18:15:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 18:00:00' <BR> execution time: 1.0211009979248 seconds <BR>
+20130124 - 18:30:03>UPDATE Array
+(
+    [followers] => 111826
+)
+ WHERE id = 2  <BR> execution time: 0.59659695625305 seconds <BR>
+20130124 - 19:05:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.84769916534424 seconds <BR>
+20130124 - 19:10:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.65689301490784 seconds <BR>
+20130124 - 19:20:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.6514949798584 seconds <BR>
+20130124 - 19:25:03>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.65294790267944 seconds <BR>
+20130124 - 19:35:02>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 0,
+			modified = NOW()
+			WHERE id_person = 2 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.70946598052979 seconds <BR>
+20130124 - 19:40:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 19:00:00' <BR> execution time: 1.0805010795593 seconds <BR>
+20130124 - 19:50:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 19:00:00' <BR> execution time: 0.6737699508667 seconds <BR>
+20130124 - 20:05:02>SELECT * FROM persons WHERE twitter = 'NoDoubtTrout' <BR> execution time: 0.86359405517578 seconds <BR>
+20130124 - 20:10:02>SELECT * FROM statistics
+			WHERE id_person = 2 AND date = '2013-01-24 20:00:00' <BR> execution time: 0.63911080360413 seconds <BR>
+20130124 - 20:35:02>UPDATE statistics SET
+			tweets = tweets + 0,
+			retweets = retweets + 0,
+			followers = followers + 0,
+			mentions = mentions + 0,
+			modified = NOW()
+			WHERE id_person = 1 AND date = '2013-01-24 20:00:00' <BR> execution time: 0.74455714225769 seconds <BR>
+20130124 - 20:50:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 20:00:00' <BR> execution time: 0.76668810844421 seconds <BR>
+20130124 - 22:25:02>SELECT * FROM statistics
+			WHERE id_person = 1 AND date = '2013-01-24 22:00:00' <BR> execution time: 0.74270701408386 seconds <BR>
+20130124 - 23:20:02>SELECT * FROM twitter_sync_history WHERE state = 0 <BR> execution time: 0.58813500404358 seconds <BR>

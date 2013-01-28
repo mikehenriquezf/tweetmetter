@@ -1,0 +1,267 @@
+<ul class="anchor">
+	<li><a href="#" onclick="goToByScroll('intro'); return false;" class="tooltip uno active" title="Perfiles">Perfiles</a></li>
+	<li><a href="#" onclick="goToByScroll('round_info'); return false;" class="tooltip dos" title="Round por Round">Round por Round</a></li>
+	<li><a href="#" onclick="goToByScroll('widgets'); return false;" class="tooltip tres" title="Conversaci&oacute;n">Conversaci&oacute;n</a></li>
+</ul>
+
+<section class="hd">
+
+	<!-- breadcrumb -->
+	<div class="breadcrumbs">
+		<div class="row">
+			<ul>
+				<li><a href="http://www.elnuevodia.com">Portada</a></li>
+				<li><a href="http://www.elnuevodia.com/especiales">Especiales</a></li>
+				<li><a href="http://www.elnuevodia.com/especiales-peleacottovstrout/">Cotto vs. Trout</a></li>
+				<li><span>Redes Sociales</span></li>
+			</ul>
+		</div>
+	</div>
+	<!-- end breadcrumb -->
+
+	<!-- intro -->
+	<article id="intro">
+
+		<!-- date -->
+		<div class="row">
+			<div class="date">
+				<h3>1-12-12</h3>
+				<h6>Madison Square Garden, NY</h6>
+			</div>
+		</div>
+		<!-- end date -->
+
+		<div class="row">
+			<div class="bg-followers">
+				<span class="shine"></span>
+				<span class="versus"><p>Vs</p></span>
+			</div>
+			<p class="reference">* En las pasadas 24hs </p>
+		</div>
+
+		<!-- boxers -->
+		<div class="row">
+			<div class="boxers">
+
+				<!-- START BLOCK : PERSON -->
+				<div id="{css}" id_person="{id_person}" class="six columns">
+					<div class="photo">{name}</div>
+
+					<!-- menciones -->
+					<a href="#div_lightbox" class="fancy-general mentions" twitter="{twitter}">
+						<div class="hd">
+							<h3>{mentions_24}</h3>
+							<div class="statics">
+								<div class="bars" style="height:{mentions_24_%}%">Bar graph</div>
+							</div>
+						</div>
+						<h5>Menciones en las pasadas 24hs</h5>
+					</a>
+					<!-- end menciones -->
+
+					<!-- followers -->
+					<div class="followers">
+						<p>Total de seguidores:</p>
+						<h4>{followers}</h4>
+						<ul>
+							<li>
+								<p>Tuits*</p>
+								<a href="#div_lightbox" class="fancy-general tweets" twitter="{twitter}">
+
+									<h5 class="tweets_24">{tweets_24}</h5>
+								</a>
+							</li>
+							<li>
+								<p>Retuits*</p>
+								<h5 class="retweets_24">{retweets_24}</h5>
+							</li>
+						</ul>
+					</div>
+					<!-- end followers -->
+
+					<!-- ficha tecnica -->
+					<div class="technical-cards">
+						<p><a href="#" card="{css}-card">Ficha t&eacute;cnica</a></p>
+					</div>
+					<!-- end ficha tecnica -->
+
+					<!-- nombre -->
+					<div class="name">
+						<h4>{first_name}</h4>
+						<h2>{last_name}</h2>
+					</div>
+					<!-- end nombre -->
+
+					<!-- twitter slide -->
+					<!-- START BLOCK : SLIDER -->
+					<div class="boxer-twitter">
+						<h6><a data-lang="es" href="https://twitter.com/intent/tweet?screen_name=@{twitter}" alt="Envíales un tuit" title="Envíale un tuit">@{twitter}</a></h6>
+						<div id="{css}-slide" class="twitter-flex flexslider">
+							<ul class="slides">
+								<!-- START BLOCK : SLIDER_ITEM -->
+								<li>{text}</li>
+								<!-- END BLOCK : SLIDER_ITEM -->
+							</ul>
+						</div>
+					</div>
+					<!-- END BLOCK : SLIDER -->
+					<!-- end twitter slide -->
+
+				</div>
+				
+				<div id="{css}-card" class="{css}-techcard techcard">
+					<a href="#" card="{css}-card" class="close">Cerrar</a>
+					<div class="row">
+						<div class="first column">
+							<div class="mg">
+								<img src="{WEB_PATH}html/img/boxeador_{css}.png" />
+							</div>
+						</div>
+						<div class="second column">
+							<div class="hd">
+								<h3>{first_name} <span>{last_name}</span></h3>
+							</div>
+							<div class="bd">
+								<div class="row">
+									<div class="info col">
+										<p>Estatura</p>
+										<h5>{altura_inch}</h5>
+									</div>
+									<div class="info col">
+										<p>Alcance</p>
+										<h5>{alcance_inch}</h5>
+									</div>
+									<div class="info col">
+										<p>Edad</p>
+										<h5>{edad}</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="info">
+										<p>Total peleas</p>
+										<h5>{peleas_total}</h5>
+									</div>
+									<div class="info">
+										<p>Victorias</p>
+										<h5>{peleas_ganadas}</h5>
+									</div>
+									<div class="info">
+										<p>KO</p>
+										<h5>{peleas_ko}</h5>
+									</div>
+									<div class="info">
+										<p>Derrotas</p>
+										<h5>{peleas_perdidas}</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END BLOCK : PERSON -->
+
+			</div>
+		</div>
+		<!-- end boxers -->
+
+		<div class="bg-slider"><span class="shine-line"></span></div>
+
+	</article>
+	<!-- end intro -->
+</section>
+
+<section class="bd">
+	
+	<a name="round_info" id="round_info"></a>
+
+	<!-- START BLOCK : COUNTDOWN_ -->
+	<!-- dias faltantes -->
+	<article id="counter">
+		<div class="row">
+			<header><h2>Faltan para la pelea</h2></header>
+			<div class="bd">
+				<div id="div_countdown" i="{counter_minute}" H="{counter_hour}" d="{counter_day}" m="{counter_month}" Y="{counter_year}">inicial</div>
+			</div>
+		</div>
+	</article>
+	<!-- end dias faltantes -->
+	<!-- END BLOCK : COUNTDOWN_ -->
+
+	<!-- round por round -->
+	<article id="rounds" style="display:">
+		<div class="row">
+			<header><h2>Round por Round</h2></header>
+			<div class="bd">
+				<iframe src='http://embed.scribblelive.com/Embed/v5.aspx?Id=72053&ThemeId=8455' width='960' height='350' frameborder='0'></iframe>
+				<!-- <iframe width="435" height="350" src="http://cdn.livestream.com/embed/gfrmediaenvivo?layout=4&amp;color=0xe7e7e7&amp;autoPlay=false&amp;mute=false&amp;iconColorOver=0x888888&amp;iconColor=0x777777&amp;allowchat=true&amp;height=350&amp;width=435" style="border:0; outline:0; float:right;" frameborder="0" scrolling="no"></iframe> -->
+			</div>
+		</div>
+	</article>
+	<!-- end round por round -->
+
+	<!-- social widgets -->
+	<article id="widgets">
+		<div class="row">
+			<header><h2>¡&Uacute;nete a la conversaci&oacute;n!</h2></header>
+
+			<div class="bd">
+				<div class="row">
+					<!-- twitter widget -->
+					<div class="tw-widget social-widget">
+						<div class="hd"><h3>Twitter</h3></div>
+						<div class="bd">
+							<a class="twitter-timeline" href="https://twitter.com/search?q=%23CottovsTrout" data-widget-id="273512583439466496" data-theme="dark" data-link-color="#BF3D3E" width="365" height="450" lang="EN">Tweets about "#CottovsTrout"</a>
+							<script>!function(d, s, id) {
+								var js, fjs = d.getElementsByTagName(s)[0];
+								if (!d.getElementById(id)) {
+									js = d.createElement(s);
+									js.id = id;
+									js.src = "//platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js, fjs);
+								}
+							}(document, "script", "twitter-wjs");
+							</script>
+						</div>
+					</div>
+					<!-- end twitter widget -->
+
+					<!-- banner -->
+					<div class="banner">
+						<!------ OAS AD 'x18' begin ------>
+						<SCRIPT LANGUAGE=JavaScript>
+						<!--  
+						OAS_AD('x18');  
+						//-->
+						</SCRIPT>
+						<!------ OAS AD 'x18' end ------>	
+					</div>
+					<!-- end banner -->
+
+					<!-- facebook widget -->
+					<div class="fb-widget social-widget">
+						<div class="hd"><h3>Facebook</h3></div>
+						<div class="bd">
+							<div class="fb-scroll jspScrollable">
+								<div>
+									<div id="fb-root"></div>
+									<script>(function(d, s, id) {
+									  var js, fjs = d.getElementsByTagName(s)[0];
+									  if (d.getElementById(id)) return;
+									  js = d.createElement(s); js.id = id;
+									  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=464345933603141";
+									  fjs.parentNode.insertBefore(js, fjs);
+									}(document, 'script', 'facebook-jssdk'));
+									</script>
+									<html xmlns:fb="http://ogp.me/ns/fb#">
+									<fb:comments href="http://cottovstrout.elnuevodia.com/" width="350" num_posts="2" colorscheme="dark"></fb:comments>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end facebook widget -->
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- end social widgets -->
+</section>

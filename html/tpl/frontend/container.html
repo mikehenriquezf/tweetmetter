@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<meta name="language" content="es" />
+	<meta name="rating" content="general" />
+	<meta name="Revisit-After" content="1 Days"/>
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="The Electric Factory" />
+	<meta name="title" content="Super Bowl | elnuevodia.com" />
+	<meta name="keywords" content="miguel cotto, austin trout, cotto vs trout, pedro diaz, puerto rico" />
+	<meta name="description" content="Sitio para la cobertura de la pelea de boxeo Miguel Cott vs Austin Trout." />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>Cotto vs Trout</title>
+
+	<meta property="og:url" content="{WEB_PATH}" />
+	<meta property="og:title" content="Super Bowl" />
+	<meta property="og:description" content="Sitio para la cobertura de la pelea de boxeo Miguel Cotto vs Austin Trout" />
+	<meta property="og:image" content="{WEB_PATH}html/img/fbk_cotto_trout.jpg" />
+
+	<!--<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />-->
+	
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="{WEB_PATH}html/css/foundation.css">
+	<link rel="stylesheet" href="{WEB_PATH}html/css/jquery.fancybox.css?v=2.1.1" />
+	<link rel="stylesheet" href="{WEB_PATH}html/css/animation.css" />
+	<link rel="stylesheet" href="{WEB_PATH}html/css/jquery.qtip.css" />
+	<link rel="stylesheet" href="{WEB_PATH}html/css/tef-styles.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="{WEB_PATH}html/css/ie.css">
+	<![endif]-->
+
+	<link type="image/x-icon" href="{WEB_PATH}html/img/favicon.ico" rel="shortcut icon"/>	
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="{WEB_PATH}html/js/frontend/modernizr.foundation.js"></script>
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script language="javascript">
+		var WEB_PATH = '{WEB_PATH}';
+		var WEB_PATH_CDN = '{WEB_PATH_CDN}';
+	</script>
+	
+	<!-- OAS -->
+	<SCRIPT LANGUAGE=JavaScript>
+	<!--  
+	//configuration  
+	OAS_url = 'http://oascentral.gfradnetwork.net/RealMedia/ads/'; 
+	OAS_sitepage = 'elnuevodia.com/deportes/especial5'; //esta es la dirección que se usa en RealMedia para asignar la campaña que se va a publicar
+	OAS_listpos = 'Top,x18';  //estas son las posiciones dentro de la pagina donde se mostrarán anuncios ... Top = 728x90, TopRight = 180x90, Right1 = 300x250
+	OAS_query = ''; 
+	OAS_target = '_top'; 
+	//end of configuration 
+	OAS_version = 10; 
+	OAS_rn = '001234567890'; OAS_rns = '1234567890'; 
+	OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11); 
+	function OAS_NORMAL(pos) { 
+	document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');  
+	document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');  
+	} 
+	//-->
+	</SCRIPT>
+
+	<SCRIPT LANGUAGE=JavaScript1.1>
+	<!--   
+	OAS_version = 11;    
+	if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)) OAS_version = 10;  
+	if (OAS_version >= 11) document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>'); 
+	//-->
+	</SCRIPT>
+	<SCRIPT LANGUAGE=JavaScript><!--   
+	document.write('');   
+	function OAS_AD(pos) {   
+	if (OAS_version >= 11)   
+	OAS_RICH(pos);   
+	else  
+	OAS_NORMAL(pos);   
+	} 
+	//--></SCRIPT>
+
+</head>
+<body>
+	<div id="doc">
+
+		<header>
+			<hgroup class="row">
+				<div class="columns">
+					<h1><a href="http://www.elnuevodia.com" target="_blank" alt="El Nuevo D&iacute;a">El Nuevo D&iacute;a</a></h1>
+				</div>
+				<div class="columns" style="margin:10px 0 0 0;">
+					<!------ OAS AD 'Top' begin ------>
+					<SCRIPT LANGUAGE=JavaScript>
+					<!--  
+					OAS_AD('Top');  
+					//-->
+					</SCRIPT>
+					<!------ OAS AD 'Top' end ------>					
+				</div>
+			</hgroup>
+		</header>
+
+		<!-- main section -->
+		<div id="main">
+		    {MAIN_CONTENT}
+		</div>
+		<!-- end main section -->
+
+		<footer>
+			<div class="row">
+				<div class="column logo">
+					<a class="elnuevodiacom" href="http://www.elnuevodia.com/" alt="elnuevodia.com" target="_blank">elnuevodia.com</a>
+				</div>
+				<div class="column links">
+					<ul>
+						<li><a href="mailto:opinion@elnuevodia.com" target="_blank">Cont&aacute;ctanos</a></li>
+						<li><a href="http://www.elnuevodia.com/seccion-noticias/" target="_blank">Noticias</a></li>
+						<li><a href="http://www.elnuevodia.com/seccion-negocios/" target="_blank">Negocios</a></li>
+						<li><a href="http://www.elnuevodia.com/seccion-deportes/" target="_blank">Deportes</a></li>
+						<li><a href="http://www.elnuevodia.com/seccion-entretenimiento/" target="_blank">Entretenimiento</a></li>
+						<li><a href="http://www.elnuevodia.com/seccion-estilosdevida/" target="_blank">Estilos de vida</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://especiales.elnuevodia.com/movilapps/" target="_blank">El Nuevo D&iacute;a M&oacute;vil</a></li>
+						<li><a href="http://www.elnuevodia.com/contenido-terminos-676736.html" target="_blank">T&eacute;rminos y condiciones</a></li>
+						<li><a href="http://www.elnuevodia.com/contenido-politicas-676743.html" target="_blank">Pol&iacute;ticas de privacidad</a></li>
+						<li><a href="http://promos.elnuevodia.com/mediakit//" target="_blank">Sitio Corporativo</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://www.primerahora.com/" target="_blank">Primera Hora</a></li>
+						<li><a href="mailto:apoyo@elnuevodia.com" target="_blank">&iquest;Problemas con el servicio?</a></li>
+						<li><a href="mailto:apoyo@elnuevodia.com" target="_blank">apoyo@elnuevodia.com</a></li>
+						<li><a href="http://reto.apex.pr/" target="_blank">Apex Technologies Inc.</a></li>
+					</ul>
+				</div>
+				<ul class="column social">
+					<li>S&iacute;guenos en:</li>
+					<li><a class="tw" href="http://twitter.com/elnuevodia" target="_blank">Twitter</a></li>
+					<li><a class="fb" href="http://www.facebook.com/elnuevodia" target="_blank">Facebook</a></li>
+				</ul>
+			</div>
+
+			<!-- fixed bottom bar -->
+			<div class="bottom-bar">
+				<div class="row">
+					<div class="columns">
+						<a href="http://www.elnuevodia.com/especiales-peleacottovstrout/" target="_blank" class="button">Ir al sitio especial de la pelea</a>
+					</div>
+					<div class="columns">
+                    	
+						<ul class="share">
+							<li>Comparte este sitio:</li>
+                            <li class="tw"><a href="http://www.addthis.com/bookmark.php?pub=xa-4a8f28793a712e06&v=250&source=tbx-250&s=twitter&url=http%3A%2F%2Fow.ly%2FfGvqb&title=%23CottovsTrout&content=Sitio%20para%20la%20cobertura%20de%20la%20pelea%20de%20boxeo%20Miguel%20Cott%20vs%20Austin%20Trout." target="_blank" title="Twitter">Twitter</a></li>
+                            <li class="fb"><a href="http://www.addthis.com/bookmark.php?pub=xa-4a8f28793a712e06&v=250&source=tbx-250&s=facebook&url=http%3A%2F%2Fcottovstrout.elnuevodia.com%2F&title=Cotto%20vs%20Trout&content=Sitio%20para%20la%20cobertura%20de%20la%20pelea%20de%20boxeo%20Miguel%20Cott%20vs%20Austin%20Trout." target="_blank" title="Facebook">Facebook</a></li>
+							<!--<li>
+								<!-- AddThis Button BEGIN --><!--
+								<div class="addthis_toolbox addthis_default_style ">
+									<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+									<a class="addthis_button_tweet"></a>
+									<a class="addthis_counter addthis_pill_style"></a>
+								</div>
+								<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50b291a37839a626"></script></li>
+								<!-- AddThis Button END -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end fixed bottom bar -->
+		</footer>
+
+		<!-- fancybox -->
+		<div id="div_lightbox" class="fancy" style="display:none;">
+		</div>
+		<!-- end fancybox -->
+
+
+	</div>
+	<!-- end #doc -->
+
+	<!-- Included JS Files -->
+	<script src="{WEB_PATH}html/js/site.php" type="text/javascript"></script>	
+	
+	<!-- START BLOCK : GOOGLE_ANALYTICS -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', '{GOOGLE_ANALYTICS_ID}']);
+		_gaq.push(['_setDomainName', 'elnuevodia.com']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<!-- END BLOCK : GOOGLE_ANALYTICS -->
+	
+	<!-- START BLOCK : DAX -->
+	<!-- DaxPath: ("deportes.boxeo.especiales.cotto-trout.tuitometro") ver: 20120530 -->
+	<!-- Digital Analytix gfrmTools -->
+	<!-- EL NUEVO DIA (elnuevodia.com) -->
+	<script type="text/javascript">
+	    var _gfrM_DAX_prefix = "";
+	    var _gfrM_DAX_section = "deportes";
+	    var _gfrM_DAX_subsection = "boxeo";
+	    var _gfrM_DAX_page = "especiales";
+	    var _gfrM_DAX_detail = "cotto-trout";
+	    var _gfrM_DAX_postfix = "tuitometro";
+	</script>
+	<script type="text/javascript" src="http://recend.apextech.netdna-cdn.com/js/dax-tagtools-end.0.2.js"></script>
+	<script language="JavaScript1.3" src="http://b.scorecardresearch.com/c2/6906656/ct.js"></script>
+	<noscript>
+	<p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6906656&amp;ns_site=elnuevodia-com&amp;name=deportes.boxeo.especiales.cotto-trout.tuitometro" height="1" width="1" alt="*"></p>
+	</noscript> 
+	<!-- End comScore UDM code -->
+	<!-- Digital Analytix gfrmTools -->
+	<!-- END BLOCK : DAX -->
+
+</body>
+</html>

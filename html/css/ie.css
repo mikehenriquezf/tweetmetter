@@ -1,0 +1,60 @@
+/* Foundation v2.2.1 http://foundation.zurb.com */
+/* This is for all IE specfific style less than IE9. We hate IE. */
+
+/* -------------------------------------------------- 
+	:: CSS3 Fix
+   ---------------------------------------------------*/
+	#intro .boxers .mentions .hd h3, #intro .boxers .mentions .hd .statics { *display:inline; }
+	#intro .boxers .followers ul { *display:inline; }
+	section.bd > article header h2 { *display:inline; }
+	#doc > footer li { *display:inline; }
+	.fancy .bd .detail { *display:inline; }
+
+
+	.bottom-bar .columns { float:right; }
+	.bottom-bar .columns:first-child { float:left; }
+
+
+/* 	Rounded Borders & Box Shadow
+	---------------------------------- */
+
+
+/* 	Degradee
+	------------------------ */
+	.bottom-bar { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#364466', endColorstr='#212537',GradientType=0 ); }
+
+/* 	Opacity
+	------------------------ */
+
+
+/*	Before & After
+	------------------------ */
+	#intro .boxers .name h4 {
+		*zoom: expression( 
+			this.runtimeStyle.zoom="1",
+			this.appendChild( document.createElement("small") ).className="after"
+		);
+	}
+
+	#intro .boxers .name h4 .after { display:inline; width:17px; height:16px; background:url("../img/ic-star-white.png") no-repeat; margin-left:10px; }
+
+	
+
+/* 	Slider
+	------------------------ */
+
+
+
+/* 	Forms
+	------------------------ */
+	form.custom span.checkbox.custom { *top:1px; }
+
+/* 	Footer
+	------------------------ */
+	footer li { *display:inline; }
+	footer .social { float:right; }
+	footer .links { *line-height:1.15; }
+	footer .links li a {*margin-right:5px; }
+
+/*	Third Party Fix
+	------------------------ */
